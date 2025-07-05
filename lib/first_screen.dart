@@ -38,13 +38,9 @@ class _FirstScreenState extends State<FirstScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset('assets/images/app_screen.png'),
+          Image.asset('android/assets/images/app_screen.png'),
           const SizedBox(height: 50),
-          const SpinKitSpinningLines(
-            color: Colors.white,
-            size: 50.0,
-          ),
-
+          const SpinKitSpinningLines(color: Colors.white, size: 50.0),
         ],
       ),
     );
@@ -63,10 +59,10 @@ class SecondPage extends StatelessWidget {
           'Welcome to the second page!',
           style: TextStyle(
             fontSize: 30,
-            color: Colors.pink,
-            fontFamily: "ALike",
+            color: Colors.black54,
+            fontFamily: "Alike",
             fontWeight: FontWeight.w500,
-            ),
+          ),
         ),
       ),
     );
